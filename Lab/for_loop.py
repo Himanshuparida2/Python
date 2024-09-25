@@ -1,2 +1,2 @@
-for i in range(5):
-       print("Hello Guy",i)
+for x in range(2,100,2):
+    print(x, end=' ')
