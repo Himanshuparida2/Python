@@ -2,6 +2,9 @@ passes=0
 failures=0
 for g in range(10):
     result=int(input("Enter Your Result: "))
+    while(result<0 and result>100):
+        print("Invalid Input")
+        result=int(input("Enter Your Result: "))
     if(40<=result):
         failures+=1
     else:
