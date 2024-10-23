@@ -21,7 +21,7 @@ def h_move():  #Hare move
     else:
         return -2
 def display(tortoise_position,hare_position):
-    l=[' ' for i in range(80)]
+    l=['_' for i in range(80)]
     if(tortoise_position==hare_position):
         l[tortoise_position-1]="OUCH!"
     else:
@@ -46,4 +46,5 @@ def play():
         elif (t>=70):
             print("Turtoise Wins")
             break
+        
 play()
